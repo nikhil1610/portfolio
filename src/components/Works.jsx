@@ -27,7 +27,7 @@ const ProjectCard = ({index, name, description, tags, image,
           src={image}
           alt={name}
           className="w-full h-full object-cover
-          rounde-2xl"
+          rounded-2xl"
           />
 
           <div className="absolute inset-0 flex 
@@ -46,7 +46,8 @@ const ProjectCard = ({index, name, description, tags, image,
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] max-h-[87px]
+          line-clamp-4">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag)=>(
@@ -96,4 +97,4 @@ const Works = () => {
     )
 }
 
-export default SectionWrapper(Works,"")
+export default SectionWrapper(Works,"work")

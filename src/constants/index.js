@@ -19,7 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    articleSummarizer,
     jobit,
     tripguide,
     threejs,
@@ -198,16 +198,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI ARTICLE SUMMARIZER",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The web-based platform enables users to summarize articles or websites via URL input, supporting multiple languages for user preference.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "rapid API",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +215,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: articleSummarizer,
+      source_code_link: "https://github.com/nikhil1610/AI-ArticleSummarizer",
     },
     {
-      name: "Job IT",
+      name: "TNP PORTAL",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "As part of a team project, I contributed to the development of a web portal for the Training & Placements Cell NSUT. My main responsibility was to design and build the static website, which showcases the college's statistics and achievements, as well as develop essential pages for the admin and student panels. The portal was created to efficiently manage the entire placement session.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Strapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "React Bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TnP-NSUT",
+    },
+    {
+      name: "NESCII | NSUT",
+      description:
+        "NESCII is a web project that serves as a blogging platform and offers college societies the ability to create event notifications and competition details. Developed as a team project, my primary role was to work on the frontend and integrate Rest APIs. I also introduced the use of Github emoticons in place of traditional user profile images.",
+      tags: [
+        {
+          name: "Next JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Strapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/nikhil1610",
     },
   ];
   
